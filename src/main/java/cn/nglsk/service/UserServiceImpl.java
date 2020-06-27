@@ -15,6 +15,7 @@ public class UserServiceImpl implements UserService {
         data.put("data", dataList);
         data.put("message", "查询用户数据成功");
         data.put("cecc", "xwuhsi");
+        data.put("demo","简单测试");
         return data;
     }
 }
