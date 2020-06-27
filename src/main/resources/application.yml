@@ -1,0 +1,10 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: git-demo
+  datasource:
+    username: root
+    password: 199851
+    url: jdbc:mysql://127.0.0.1:3306/cleab
+    driver-class-name: com.mysql.jdbc.Driver
